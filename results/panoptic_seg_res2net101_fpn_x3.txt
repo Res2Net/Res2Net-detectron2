@@ -1,0 +1,106 @@
+3:09:35] d2.evaluation.evaluator INFO: Inference done 244/625. 0.0932 s / img. ETA=0:00:58
+[05/11 13:09:40] d2.evaluation.evaluator INFO: Inference done 276/625. 0.0934 s / img. ETA=0:00:53
+[05/11 13:09:45] d2.evaluation.evaluator INFO: Inference done 309/625. 0.0935 s / img. ETA=0:00:48
+[05/11 13:09:50] d2.evaluation.evaluator INFO: Inference done 341/625. 0.0942 s / img. ETA=0:00:43
+[05/11 13:09:55] d2.evaluation.evaluator INFO: Inference done 374/625. 0.0944 s / img. ETA=0:00:38
+[05/11 13:10:00] d2.evaluation.evaluator INFO: Inference done 408/625. 0.0942 s / img. ETA=0:00:33
+[05/11 13:10:05] d2.evaluation.evaluator INFO: Inference done 441/625. 0.0943 s / img. ETA=0:00:28
+[05/11 13:10:10] d2.evaluation.evaluator INFO: Inference done 475/625. 0.0943 s / img. ETA=0:00:23
+[05/11 13:10:15] d2.evaluation.evaluator INFO: Inference done 507/625. 0.0944 s / img. ETA=0:00:18
+[05/11 13:10:20] d2.evaluation.evaluator INFO: Inference done 538/625. 0.0946 s / img. ETA=0:00:13
+[05/11 13:10:26] d2.evaluation.evaluator INFO: Inference done 571/625. 0.0945 s / img. ETA=0:00:08
+[05/11 13:10:31] d2.evaluation.evaluator INFO: Inference done 603/625. 0.0946 s / img. ETA=0:00:03
+[05/11 13:10:34] d2.evaluation.evaluator INFO: Total inference time: 0:01:36.196855 (0.155156 s / img per device, on 8 devices)
+[05/11 13:10:34] d2.evaluation.evaluator INFO: Total inference pure compute time: 0:00:58 (0.094651 s / img per device, on 8 devices)
+[05/11 13:10:38] d2.evaluation.sem_seg_evaluation INFO: OrderedDict([('sem_seg', {'mIoU': 45.42445464905367, 'fwIoU': 70.9895374864169, 'IoU-things': 84.91160443493611, 'IoU-banner': 29.734416424571204, 'IoU-blanket': 10.347318217324208, 'IoU-bridge': 26.830032125485424, 'IoU-cardboard': 39.48424508455855, 'IoU-counter': 28.563296836454022, 'IoU-curtain': 62.66997035306898, 'IoU-door-stuff': 38.44449761617613, 'IoU-floor-wood': 56.06511859950525, 'IoU-flower': 42.73662105518307, 'IoU-fruit': 26.36422889397445, 'IoU-gravel': 23.23010938549305, 'IoU-house': 22.249358322265266, 'IoU-light': 33.572532597064615, 'IoU-mirror-stuff': 45.6574035269723, 'IoU-net': 41.559652054232785, 'IoU-pillow': 8.390741687285425, 'IoU-platform': 27.078224913508066, 'IoU-playingfield': 69.58107480484671, 'IoU-railroad': 57.84857282654087, 'IoU-river': 48.680389033748185, 'IoU-road': 61.822087937034, 'IoU-roof': 16.245129192258954, 'IoU-sand': 58.88026984352346, 'IoU-sea': 84.86868082342762, 'IoU-shelf': 31.10475279697269, 'IoU-snow': 87.84507762601932, 'IoU-stairs': 16.53513523976736, 'IoU-tent': 7.651606318221921, 'IoU-towel': 27.99233999837506, 'IoU-wall-brick': 44.06675490998069, 'IoU-wall-stone': 29.92104700092718, 'IoU-wall-tile': 64.64476986208865, 'IoU-wall-wood': 37.670923695414565, 'IoU-water': 30.5372438217517, 'IoU-window-blind': 44.06221974827597, 'IoU-window': 41.79118233559318, 'IoU-tree': 79.78236596118067, 'IoU-fence': 52.10209490348818, 'IoU-ceiling': 63.056590023609296, 'IoU-sky': 92.57605968654914, 'IoU-cabinet': 57.30102671286915, 'IoU-table': 38.73887930748866, 'IoU-floor': 45.48324401565085, 'IoU-pavement': 50.701696977898834, 'IoU-mountain': 54.164567690092966, 'IoU-grass': 72.45113073033458, 'IoU-dirt': 41.60500997028684, 'IoU-paper': 27.558378535070066, 'IoU-food': 32.94815073697811, 'IoU-building': 58.27607306594129, 'IoU-rock': 56.9037445830949, 'IoU-wall': 62.817096760563, 'IoU-rug': 56.81581144497473, 'mACC': 57.29160606193695, 'pACC': 81.96240592752459, 'ACC-things': 93.83987594486932, 'ACC-banner': 50.84020213140704, 'ACC-blanket': 12.419961052794198, 'ACC-bridge': 35.19155755107016, 'ACC-cardboard': 47.59287480005817, 'ACC-counter': 47.0429601481475, 'ACC-curtain': 74.20743469514798, 'ACC-door-stuff': 55.01461379115712, 'ACC-floor-wood': 70.26943914859673, 'ACC-flower': 56.833857609451535, 'ACC-fruit': 33.5818595876769, 'ACC-gravel': 31.017719522479226, 'ACC-house': 25.911597081832593, 'ACC-light': 45.60169678061479, 'ACC-mirror-stuff': 54.56710665066725, 'ACC-net': 58.64460495773224, 'ACC-pillow': 9.794267581502298, 'ACC-platform': 40.89755547832025, 'ACC-playingfield': 86.46014421165606, 'ACC-railroad': 75.93626166626541, 'ACC-river': 64.01359780629471, 'ACC-road': 79.52350142427444, 'ACC-roof': 20.068126163788012, 'ACC-sand': 66.20358427131382, 'ACC-sea': 91.82447287894618, 'ACC-shelf': 40.75418797461504, 'ACC-snow': 93.3289492010635, 'ACC-stairs': 26.768967301683826, 'ACC-tent': 8.66882953941893, 'ACC-towel': 33.27601551823429, 'ACC-wall-brick': 64.33834420670479, 'ACC-wall-stone': 37.638613754790924, 'ACC-wall-tile': 81.20369934885136, 'ACC-wall-wood': 48.873553099526426, 'ACC-water': 48.01724414250349, 'ACC-window-blind': 52.299365821921775, 'ACC-window': 60.919000422274706, 'ACC-tree': 89.5375731920152, 'ACC-fence': 68.49681188149812, 'ACC-ceiling': 81.66333395294258, 'ACC-sky': 96.68373537626695, 'ACC-cabinet': 72.8779287708839, 'ACC-table': 52.451131081651994, 'ACC-floor': 58.25062278187059, 'ACC-pavement': 66.14472196020762, 'ACC-mountain': 63.7642271385453, 'ACC-grass': 84.52643582313043, 'ACC-dirt': 61.79715080272762, 'ACC-paper': 35.13312931177779, 'ACC-food': 42.78889162873723, 'ACC-building': 72.49638911720432, 'ACC-rock': 72.5108039807292, 'ACC-wall': 80.17521585639287, 'ACC-rug': 71.06298142036111})])
+[05/11 13:10:41] d2.evaluation.coco_evaluation INFO: Preparing results for COCO format ...
+[05/11 13:10:41] d2.evaluation.coco_evaluation INFO: Saving results to ./output/inference/coco_instances_results.json
+[05/11 13:10:42] d2.evaluation.coco_evaluation INFO: Evaluating predictions ...
+[05/11 13:11:23] d2.evaluation.coco_evaluation INFO: Evaluation results for bbox: 
+|   AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
+|:------:|:------:|:------:|:------:|:------:|:------:|
+| 43.979 | 64.613 | 47.898 | 27.068 | 47.997 | 56.823 |
+[05/11 13:11:23] d2.evaluation.coco_evaluation INFO: Per-category bbox AP: 
+| category      | AP     | category     | AP     | category       | AP     |
+|:--------------|:-------|:-------------|:-------|:---------------|:-------|
+| person        | 57.373 | bicycle      | 34.999 | car            | 47.748 |
+| motorcycle    | 46.994 | airplane     | 66.939 | bus            | 67.977 |
+| train         | 66.294 | truck        | 38.374 | boat           | 31.304 |
+| traffic light | 30.419 | fire hydrant | 68.599 | stop sign      | 69.614 |
+| parking meter | 45.612 | bench        | 26.479 | bird           | 39.742 |
+| cat           | 68.145 | dog          | 64.151 | horse          | 58.808 |
+| sheep         | 55.341 | cow          | 58.481 | elephant       | 64.657 |
+| bear          | 61.319 | zebra        | 67.156 | giraffe        | 65.227 |
+| backpack      | 19.517 | umbrella     | 42.182 | handbag        | 18.150 |
+| tie           | 36.103 | suitcase     | 40.892 | frisbee        | 67.059 |
+| skis          | 26.763 | snowboard    | 38.183 | sports ball    | 48.411 |
+| kite          | 45.500 | baseball bat | 30.905 | baseball glove | 38.912 |
+| skateboard    | 55.043 | surfboard    | 38.518 | tennis racket  | 51.232 |
+| bottle        | 42.888 | wine glass   | 38.517 | cup            | 45.295 |
+| fork          | 39.713 | knife        | 23.754 | spoon          | 23.143 |
+| bowl          | 44.426 | banana       | 28.773 | apple          | 25.981 |
+| sandwich      | 37.763 | orange       | 33.538 | broccoli       | 22.459 |
+| carrot        | 25.571 | hot dog      | 35.809 | pizza          | 53.977 |
+| donut         | 48.344 | cake         | 39.399 | chair          | 31.235 |
+| couch         | 44.395 | potted plant | 31.623 | bed            | 45.258 |
+| dining table  | 30.782 | toilet       | 61.202 | tv             | 59.670 |
+| laptop        | 64.978 | mouse        | 64.374 | remote         | 33.625 |
+| keyboard      | 53.631 | cell phone   | 38.233 | microwave      | 58.986 |
+| oven          | 36.513 | toaster      | 30.950 | sink           | 40.793 |
+| refrigerator  | 56.658 | book         | 17.662 | clock          | 52.220 |
+| vase          | 40.058 | scissors     | 30.464 | teddy bear     | 48.277 |
+| hair drier    | 10.474 | toothbrush   | 27.822 |                |        |
+[05/11 13:12:12] d2.evaluation.coco_evaluation INFO: Evaluation results for segm: 
+|   AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
+|:------:|:------:|:------:|:------:|:------:|:------:|
+| 39.546 | 61.840 | 42.601 | 20.293 | 42.997 | 55.911 |
+[05/11 13:12:12] d2.evaluation.coco_evaluation INFO: Per-category segm AP: 
+| category      | AP     | category     | AP     | category       | AP     |
+|:--------------|:-------|:-------------|:-------|:---------------|:-------|
+| person        | 49.356 | bicycle      | 20.506 | car            | 44.057 |
+| motorcycle    | 36.563 | airplane     | 52.113 | bus            | 65.676 |
+| train         | 64.344 | truck        | 37.859 | boat           | 26.930 |
+| traffic light | 29.763 | fire hydrant | 63.874 | stop sign      | 67.523 |
+| parking meter | 46.997 | bench        | 19.629 | bird           | 33.149 |
+| cat           | 67.637 | dog          | 60.604 | horse          | 43.165 |
+| sheep         | 48.046 | cow          | 48.815 | elephant       | 59.373 |
+| bear          | 60.539 | zebra        | 58.363 | giraffe        | 49.601 |
+| backpack      | 18.899 | umbrella     | 49.028 | handbag        | 17.693 |
+| tie           | 33.499 | suitcase     | 43.308 | frisbee        | 63.841 |
+| skis          | 3.827  | snowboard    | 27.183 | sports ball    | 48.353 |
+| kite          | 33.153 | baseball bat | 26.372 | baseball glove | 40.544 |
+| skateboard    | 35.181 | surfboard    | 31.541 | tennis racket  | 56.512 |
+| bottle        | 40.951 | wine glass   | 34.692 | cup            | 44.959 |
+| fork          | 20.019 | knife        | 14.906 | spoon          | 15.580 |
+| bowl          | 41.006 | banana       | 23.116 | apple          | 25.008 |
+| sandwich      | 40.032 | orange       | 33.386 | broccoli       | 22.419 |
+| carrot        | 22.280 | hot dog      | 30.569 | pizza          | 52.012 |
+| donut         | 48.733 | cake         | 39.297 | chair          | 21.483 |
+| couch         | 37.722 | potted plant | 25.727 | bed            | 35.708 |
+| dining table  | 17.667 | toilet       | 58.703 | tv             | 61.818 |
+| laptop        | 62.807 | mouse        | 63.382 | remote         | 31.262 |
+| keyboard      | 52.654 | cell phone   | 36.221 | microwave      | 60.448 |
+| oven          | 34.376 | toaster      | 33.164 | sink           | 38.849 |
+| refrigerator  | 59.470 | book         | 12.180 | clock          | 52.261 |
+| vase          | 39.511 | scissors     | 21.005 | teddy bear     | 45.295 |
+| hair drier    | 9.118  | toothbrush   | 20.473 |                |        |
+[05/11 13:12:13] d2.evaluation.panoptic_evaluation INFO: Writing all panoptic predictions to /tmp/panoptic_evalluhhuxjv ...
+[05/11 13:12:23] d2.evaluation.panoptic_evaluation INFO: Panoptic Evaluation Results:
+|        |   PQ   |   SQ   |   RQ   |  #categories  |
+|:------:|:------:|:------:|:------:|:-------------:|
+|  All   | 44.500 | 80.580 | 53.819 |      133      |
+| Things | 51.340 | 83.078 | 61.173 |      80       |
+| Stuff  | 34.176 | 76.809 | 42.718 |      53       |
+[05/11 13:12:23] d2.engine.defaults INFO: Evaluation results for coco_2017_val_panoptic_separated in csv format:
+[05/11 13:12:23] d2.evaluation.testing INFO: copypaste: Task: sem_seg
+[05/11 13:12:23] d2.evaluation.testing INFO: copypaste: mIoU,fwIoU,mACC,pACC
+[05/11 13:12:23] d2.evaluation.testing INFO: copypaste: 45.4245,70.9895,57.2916,81.9624
+[05/11 13:12:23] d2.evaluation.testing INFO: copypaste: Task: bbox
+[05/11 13:12:23] d2.evaluation.testing INFO: copypaste: AP,AP50,AP75,APs,APm,APl
+[05/11 13:12:23] d2.evaluation.testing INFO: copypaste: 43.9795,64.6130,47.8983,27.0682,47.9974,56.8235
+[05/11 13:12:23] d2.evaluation.testing INFO: copypaste: Task: segm
+[05/11 13:12:23] d2.evaluation.testing INFO: copypaste: AP,AP50,AP75,APs,APm,APl
+[05/11 13:12:23] d2.evaluation.testing INFO: copypaste: 39.5460,61.8398,42.6010,20.2928,42.9973,55.9110
+[05/11 13:12:23] d2.evaluation.testing INFO: copypaste: Task: panoptic_seg
+[05/11 13:12:23] d2.evaluation.testing INFO: copypaste: PQ,SQ,RQ,PQ_th,SQ_th,RQ_th,PQ_st,SQ_st,RQ_st
+[05/11 13:12:23] d2.evaluation.testing INFO: copypaste: 44.5001,80.5797,53.8186,51.3398,83.0778,61.1726,34.1760,76.8089,42.7182

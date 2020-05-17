@@ -59,7 +59,7 @@ We propose a novel building block for CNNs, namely Res2Net, by constructing hier
 - Res2Net ImageNet pretrained models are in [Res2Net-PretrainedModels](https://github.com/Res2Net/Res2Net-PretrainedModels).
 - More applications of Res2Net are in [Res2Net-Github](https://github.com/Res2Net/).
 
-## Useage
+## Usage
 - Use the tools/convert-torchvision-to-d2.py to transfer the ImageNet pretrained model of Res2Net101 to detectron2 supported format. Or just download the converted model from
 this [link](https://mailnankaieducn-my.sharepoint.com/:u:/g/personal/shgao_mail_nankai_edu_cn/EZhtWgMRlxpGtJmtJ2zP1_QBqvmu_FJ05vUgOq30ElT9yg?e=e5FRD8).
 - Use the command to train:
